@@ -40,4 +40,4 @@ Lecture Notes for "Design of Data and Artificial Intelligence Systems"
 - 互換性の問題による不具合・不利益は免責とします
   - 個人環境構築はいばらの道ですが、構築して利用した場合、最終評価で採点上考慮することがあります
   - 新たにGPU対応のPC、高価なGPUを購入するのは無意味で、Colabを使った方がよいです
-  - ただし、試験答案作成に個人環境は利用できません
+  - 試験答案作成に個人環境は利用できません
