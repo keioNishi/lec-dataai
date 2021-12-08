@@ -1,5 +1,3 @@
-<a href=\"https://colab.research.google.com/github/ykitaguchi77/Colab_Scripts/blob/master/Running_Github_codes_in_Coab.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/github/keioNishi/lec-dataai\" alt=\"Open In Colab\"/></a>
-
 # lec-dataai
 Lecture Notes for "Design of Data and Artificial Intelligence Systems"
 
