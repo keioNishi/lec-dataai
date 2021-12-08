@@ -3,9 +3,7 @@
 # lec-dataai
 Lecture Notes for "Design of Data and Artificial Intelligence Systems"
 
-# 「データシステムの知能化とデザイン」の授業ノート
-
-## 慶應義塾大学理工学部システムデザイン工学科 火曜日3時限目開講の同名講義のレクチャーノートです
+# 「データシステムの知能化とデザイン」レクチャーノート
 
 ### 授業はPCの利用（ブラウザの利用）が必須です
 
