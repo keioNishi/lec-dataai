@@ -1,3 +1,5 @@
+[![侍エンジニアブログ](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai)
+
 # lec-dataai
 Lecture Notes for "Design of Data and Artificial Intelligence Systems"
 
