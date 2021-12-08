@@ -1,9 +1,9 @@
-[![「データシステムの知能化とデザイン」レクチャーノート](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai)
-
-# lec-dataai
-Lecture Notes for "Design of Data and Artificial Intelligence Systems"
-
 # 「データシステムの知能化とデザイン」レクチャーノート
+
+## lec-dataai / Lecture Notes for "Design of Systems for Data and Artificial Intelligence"
+
+- 一覧ダウンロード [![「データシステムの知能化とデザイン」レクチャーノート](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai)
+- 個別ダウンロードは下記にリンクがあります
 
 ### 授業はPCの利用（ブラウザの利用）が必須です
 
