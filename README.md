@@ -13,13 +13,13 @@ Lecture Notes for "Design of Data and Artificial Intelligence Systems"
 ### 自分のパソコンを持参することを強くお勧めします
 - 少なくともUSBメモリなどを利用してコピーをとることをお勧めします
 
-### LMSにおいて授業動画を公開しています
+### Google Colaboratory(Colab)の利用について
 - この授業は、Google Colaboratory (以下 Colab)を利用します
   - ColabはWebブラウザとGoogleアカウントがあれば利用できます
   - 内部でGoogle Driveを利用します
   - 自宅でも同様に利用できます
 
-## Google Colaboratory(Colab)の利用について
+## Colabの利用形態ついて
 - Colabは無料で利用できる無償版の他、有償版があります
   - 授業で学んだ内容の確認や課題・試験などは無償版の利用で問題ありません
 - 授業で扱う学習内容において、無償版と有償版の違いはありませんし、授業でも区別しません
@@ -40,7 +40,6 @@ Lecture Notes for "Design of Data and Artificial Intelligence Systems"
 - 互換性の問題による不具合・不利益は免責とします
   - 個人環境構築はいばらの道ですが、構築して利用した場合、最終評価で採点上考慮することがあります
   - 新たにGPU対応のPC、高価なGPUを購入するのは無意味で、Colabを使った方がよいです
-  - 試験答案作成に個人環境は利用できません
 
 - 1-準備
   - [![dataai-text-1-準備.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-1-準備.ipynb)
