@@ -4,6 +4,7 @@
 
 - 一覧ダウンロード [![「データシステムの知能化とデザイン」レクチャーノート](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai)
 - 個別ダウンロードは下記にリンクがあります
+  - GitHubから直接Colaboratoryのサイトを開くことができるため、講義を受ける際には下記の方が便利です
 
 ### 授業はPCの利用（ブラウザの利用）が必須です
 
@@ -30,6 +31,7 @@
   - 海外、特にアメリカが利用する日本の夜間は混雑する傾向があります
   - 海外が夜間となる時間帯が空いています
   - 日中混雑して利用できなかったという報告を過去受けておらず、昨年も同様に試験が実施できました
+- 1000円と少し/月(2021年調査)で利用できるため、かなりお得で、有償版利用は十分メリットがあります
 
 ## 個人環境の利用について
 - 個人で専用のGPUマシンを揃えたうえで、Colab同様の環境を個人で構築して利用することができます
@@ -40,6 +42,10 @@
 - 互換性の問題による不具合・不利益は免責とします
   - 個人環境構築はいばらの道ですが、構築して利用した場合、最終評価で採点上考慮することがあります
   - 新たにGPU対応のPC、高価なGPUを購入するのは無意味で、Colabを使った方がよいです
+
+## 授業テキスト
+
+下記のColabのリンクをクリックすると、Colabを開くことができます
 
 - 1-準備
   - [![dataai-text-1-準備.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-1-準備.ipynb)
