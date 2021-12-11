@@ -2,9 +2,9 @@
 
 ## lec-dataai / Lecture Notes for "Design of Systems for Data and Artificial Intelligence"
 
-- 一覧ダウンロード [![「データシステムの知能化とデザイン」レクチャーノート](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai)
+- 全体の閲覧とダウンロード [![「データシステムの知能化とデザイン」レクチャーノート](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai)
 - 個別ダウンロードは下記にリンクがあります
-  - GitHubから直接Colaboratoryのサイトを開くことができるため、講義を受ける際には下記の方が便利です
+  - 個別ダウンロードはGitHubから直接Colaboratoryのサイトを開くことができるため、講義を受ける際にはこちらが便利です
 
 ### 授業はPCの利用（ブラウザの利用）が必須です
 
