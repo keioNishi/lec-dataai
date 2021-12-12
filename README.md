@@ -109,3 +109,6 @@
 
 - H-StyleGAN-2
   - [![dataai-text-H-StyleGAN-2.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-H-StyleGAN-2.ipynb)
+
+- H-StyleGAN-yome (おまけ)
+  - [![dataai-text-H-StyleGAN-yome.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-H-StyleGAN-yome.ipynb)
