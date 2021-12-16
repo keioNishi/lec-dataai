@@ -1,8 +1,12 @@
-# 「データシステムの知能化とデザイン」レクチャーノート
+[![「データシステムの知能化とデザイン」レクチャーノートブック](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai)
+[![PyTorchバッジ](https://img.shields.io/badge/PyTorch->v1.0-232f3e.svg?style=flat)](https://pytorch.org/)
+[![Slackデータシステムの知能化とデザイン](https://img.shields.io/badge/Slack-keio--sd--dataai-3f0f40.svg?style=flat)](https://keio-sd-dataai.slack.com/)
+[![HIT-Academy](https://img.shields.io/badge/Slack-hitacademy--ml-3f0f40.svg?style=flat)](https://hitacademy-ml.slack.com/)
 
+# 「データシステムの知能化とデザイン」レクチャーノートブック
 ## lec-dataai / Lecture Notes for "Design of Systems for Data and Artificial Intelligence"
-
-- 全体の閲覧とダウンロード [![「データシステムの知能化とデザイン」レクチャーノート](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai)
+- 全体の閲覧とダウンロード
+  - 左上もしくはこちら[![「データシステムの知能化とデザイン」レクチャーノートブック](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai)のバッジを利用してください
 - 個別ダウンロードは下記にリンクがあります
   - 個別ダウンロードはGitHubから直接Colaboratoryのサイトを開くことができるため、講義を受ける際にはこちらが便利です
 
