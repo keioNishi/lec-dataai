@@ -99,20 +99,23 @@
 - E-PyTorch-説明可能AI
   - [![dataai-text-E-PyTorch-説明可能AI.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-E-PyTorch-説明可能AI.ipynb)
 
-- F-PyTorch-自然言語処理-1
-  - [![dataai-text-F-PyTorch-自然言語処理-1.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-F-PyTorch-自然言語処理-1.ipynb)
+- F-PyTorch-GAN
+  - [![dataai-text-F-PyTorch-GAN.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-F-PyTorch-GAN.ipynb)
 
-- F-PyTorch-自然言語処理-2
-  - [![dataai-text-F-PyTorch-自然言語処理-2.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-F-PyTorch-自然言語処理-2.ipynb)
+- G-PyTorch-自然言語処理-1
+  - [![dataai-text-G-PyTorch-自然言語処理-1.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-G-PyTorch-自然言語処理-1.ipynb)
 
-- G-PyTorch-音声識別
-  - [![dataai-text-G-PyTorch-音声識別.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-G-PyTorch-音声識別.ipynb)
+- G-PyTorch-自然言語処理-2
+  - [![dataai-text-G-PyTorch-自然言語処理-2.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-G-PyTorch-自然言語処理-2.ipynb)
 
-- H-StyleGAN-1
-  - [![dataai-text-H-StyleGAN-1.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-H-StyleGAN-1.ipynb)
+- H-PyTorch-音声識別
+  - [![dataai-text-H-PyTorch-音声識別.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-H-PyTorch-音声識別.ipynb)
 
-- H-StyleGAN-2
-  - [![dataai-text-H-StyleGAN-2.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-H-StyleGAN-2.ipynb)
+- I-StyleGAN-1
+  - [![dataai-text-I-StyleGAN-1.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-I-StyleGAN-1.ipynb)
 
-- H-StyleGAN-yome (おまけ)
-  - [![dataai-text-H-StyleGAN-yome.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-H-StyleGAN-yome.ipynb)
+- I-StyleGAN-2
+  - [![dataai-text-I-StyleGAN-2.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-I-StyleGAN-2.ipynb)
+
+- I-StyleGAN-3
+  - [![dataai-text-I-StyleGAN-3.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-I-StyleGAN-3.ipynb)
