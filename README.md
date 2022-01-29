@@ -119,3 +119,145 @@
 
 - I-StyleGAN-3
   - [![dataai-text-I-StyleGAN-3.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keioNishi/lec-dataai/blob/main/dataai-text-I-StyleGAN-3.ipynb)
+
+## Cuda環境の構築について
+
+自宅などGoogle Colaboratoryではないマシンにインストールして利用するには、次を参考にチャレンジしてください。特に困らないであろうというところは、説明を省略しています。
+
+- Cuda Toolkitをインストール
+
+基本最新版で問題ありません。
+
+- cuDNNをインストール
+
+こちらも問題ないはずです。アーキテクチャにより若干インストールの方法が違うようです。
+
+- Anacondaをインストール
+
+これも問題ないはずです。
+
+- Anaconda Navigatorを起動するなどして、新たな環境を構築
+
+要するに、conda create するということです。
+
+- Anaconda環境を更新する
+
+```
+conda config --set ssl_verify no
+conda config --set allow_conda_downgrades true
+conda update -y conda
+conda install -y anaconda
+conda update -y --all
+```
+
+- Pytorhをインストールする
+
+toolkitバージョンはpytorthのホームページで確認してください。
+```
+Linux
+conda install -y pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -c nvidia
+Windows
+conda install -y pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -c pytorch
+#(バージョンによってはこちらだがお勧めしない) conda install -y pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -c conda-forge
+```
+導入したら、次で動作を確認
+```
+python
+>>> import torch
+>>> print(torch.cuda.is_available())
+True
+```
+最後にTrueと出ればOK。出ない場合は、頑張って解決しましょう。例えば、間違ってcpu版が入っている可能性があります。
+
+- Jupyter Notebookをインストール
+
+```
+pip install jupyter
+pip install --upgrade jupyter_http_over_ws
+jupyter serverextension enable --py jupyter_http_over_ws
+jupyter nbextension enable --py widgetsnbextension
+```
+
+- 授業で利用するライブラリをインストール
+
+```
+conda install -y numpy
+conda install -y pandas
+conda install -y cudatoolkit
+conda install -y cudnn
+conda install -y keras
+conda install -y scikit-learn scikit-learn-intelex
+conda install -y scikit-image
+conda install -y matplotlib
+conda install -y python-graphviz
+conda install -y pydotplus
+conda install -y seaborn
+conda install -y missingno
+conda install -y lxml
+```
+
+- OpenCVをインストール
+ちょっと大物なので、分けています。conda install opencv はうまくいかないので次のようにするとよいでしょう。
+
+```
+pip install opencv-python
+conda install -y -c conda-forge opencv
+conda install -y -c conda-forge librosa
+conda install -y -c conda-forge lightgbm
+conda install -y -c conda-forge xgboost
+conda install -y -c conda-forge ipywidgets
+conda install -y -c conda-forge gensim
+```
+
+- そのほかの関連ライブラリをインストール
+
+```
+Linux
+conda install -y -c conda-forge mecab
+Windows
+conda install -y -c mzh mecab-python3
+
+pip install requests beautifulsoup4
+pip install --upgrade numpy
+```
+
+- tensorflowを入れる
+
+これが、pythonのバージョン整合が厳しく、失敗することが比較的多いです。
+```
+conda install -y tensorflow-gpu tensorflow-datasets tensorflow-hub
+```
+ですが入らなくても特に困ることはありません。
+```
+conda install -y tensorflow-gpu tensorflow-datasets tensorflow-hub -c conda-forge
+```
+で入る場合もあります。なお、tensorflow-gpuさえ入ればなんとかなります。
+
+- quiltを入れる
+
+これも、pythonのバージョンに厳しく、新しいpythonではインストールできないようです。といっても、利用するのは一か所だけなので、なくても大丈夫です。
+```
+conda install -y -c conda-forge quilt
+quilt install --force ResidentMario/missingno_data
+```
+- おまけ
+
+中にはwgetなど、Linux系のコマンドを利用しています。そこで、次の2つの導入をしておくとよいでしょう。
+
+  - wgetの導入
+
+使用頻度も高いので、ぜひ入れてください。
+
+https://sourceforge.net/projects/gnuwin32/files/wget/1.11.4-1/wget-1.11.4-1-setup.exe/download
+
+これを実行するだけです。ほかのアーキテクチャでも同様に、利用できるようにしてください。
+
+  - busyboxの導入
+
+特に、Windowsでは、lsも基本できません(Windows11でかなり良くなりますが)。そこで、次のbusyboxを導入してください。
+
+https://frippery.org/files/busybox/busybox.exe
+
+さらに、busybox.exeをC:\Windowsにコピーして、その中で busybox --installとするとメジャーコマンドが利用できるようになります。
+
+
