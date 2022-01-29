@@ -260,4 +260,23 @@ https://frippery.org/files/busybox/busybox.exe
 
 さらに、busybox.exeをC:\Windowsにコピーして、その中で busybox --installとするとメジャーコマンドが利用できるようになります。
 
+### Jupyter NotebookをGoogle Colaboratoryに接続する
 
+これが重要です。Google Colaboratoryに慣れている人は、ピュアなJupyter Notebookは使いにくいと感じると思います。そこで、いつも通りGoogle Colaboratoryを利用しつつ、ローカルの計算リソースを利用することができますので、紹介します。
+
+- 最初だけ、実行バッチファイルを作成する
+
+メモ帳でも、busyboxのviでもよいので、jupyterrun.batというファイルを作成します。中身は次の通りです。
+```
+jupyter notebook --no-browser --NotebookApp.allow_origin='https://colab.research.google.com' --port=8888 --NotebookApp.prt_retries=0 --allow-root --ip=0.0.0.0 --NotebookApp.token=''
+```
+
+- 最初に一度jupyterrun.batを実行する
+
+ログが吐き出され、動き出すはずです。これが動いている間は、いくらでも接続できます。
+
+- 普通にGoogle Colaboratoryでノートブックを開き、「接続」する際に、「ローカルランタイムに接続」を選択する
+
+http://localhost:8888/ バックエンドに指定されているはずですので、そのまま接続とします。
+
+これで、 Googleを利用せず、自分の環境を利用するようになります。利用制限もなく、ファイルが消えることもありません。
