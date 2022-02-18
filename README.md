@@ -243,7 +243,8 @@ quilt install --force ResidentMario/missingno_data
 ```
 - おまけ
 
-中にはwgetなど、Linux系のコマンドを利用しています。そこで、次の2つの導入をしておくとよいでしょう。
+中にはwgetなど、Linux系のコマンドを利用しています。  
+Linux上で構築する場合は特に問題とはなりませんが、Windows上で構築するには、次の2つのLinuxで著名なコマンドラインツールを導入をしておくとよいでしょう。
 
   - wgetの導入
 
