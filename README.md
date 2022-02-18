@@ -256,7 +256,7 @@ https://sourceforge.net/projects/gnuwin32/files/wget/1.11.4-1/wget-1.11.4-1-setu
 
   - busyboxの導入
 
-特に、Windowsでは、lsも基本できません(Windows11でかなり良くなりますが)。そこで、次のbusyboxを導入してください。
+特に、Windowsでは、lsも基本実行できません(Windows11でかなり良くなりますが)。そこで、次のbusyboxを導入してください。
 
 https://frippery.org/files/busybox/busybox.exe
 
