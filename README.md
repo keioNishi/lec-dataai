@@ -197,6 +197,7 @@ conda install -y lxml
 ```
 
 - OpenCVをインストール
+
 ちょっと大物なので、分けています。conda install opencv はうまくいかないので次のようにするとよいでしょう。
 
 ```
