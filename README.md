@@ -254,13 +254,15 @@ https://sourceforge.net/projects/gnuwin32/files/wget/1.11.4-1/wget-1.11.4-1-setu
 
 これを実行するだけです。ほかのアーキテクチャでも同様に、利用できるようにしてください。
 
+  - Gitの導入
+  
+GitHub環境を自身のマシンに導入する際には、ほぼ必須ともいえるツールです。特に、Windowsユーザの皆さんには、Git Bashの導入をお勧めします。Git Bashを導入することで、下記、busyboxの導入は不要になるといえます。
+
   - busyboxの導入
 
-特に、Windowsでは、lsも基本実行できません(Windows11でかなり良くなりますが)。そこで、次のbusyboxを導入してください。
+Git Bashを導入しない場合、Windowsでは、lsなどUnix系コマンドは基本実行できません(Windows11でかなり良くなりますが)。そこで、次のbusyboxの導入が検討されます。https://frippery.org/files/busybox/busybox.exe
 
-https://frippery.org/files/busybox/busybox.exe
-
-さらに、busybox.exeをC:\Windowsにコピーして、その中で busybox --installとするとメジャーコマンドが利用できるようになります。
+導入後、busybox.exeをC:\Windowsにコピーして、その中で busybox --installとするとメジャーコマンドが利用できるようになります。
 
 ### Jupyter NotebookをGoogle Colaboratoryに接続する
 
